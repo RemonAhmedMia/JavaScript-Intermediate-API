@@ -19,4 +19,29 @@ This is line three
 console.log(multiLine);
 
 
-const friendOne = "Omar Faruk"
+const friendOne = "Omar Faruk";
+const friendTwo = "Moin Intejar";
+const friendThree = "Someone";
+const places = "Kaptai And Noakhali"
+const tour = `we have three friend like ${friendOne} and ${friendTwo} also ${friendThree} we are going the place of ${places}`
+
+console.log(tour);
+
+// এখানে ${name} হলো placeholder।
+// Backtick ব্যবহার করলে আমরা string-এর মধ্যে variable / expression বসাতে পারি।
+
+// Expression বসানো
+const a = 10;
+const b = 20;
+
+console.log(`Sum is: ${a + b}`); 
+// Output: Sum is: 30
+
+
+// Function এর ভেতরে====
+function greet(name) {
+  return `Welcome, ${name}!`;
+}
+
+console.log(greet("Mia"));
+// Output: Welcome, Mia!
