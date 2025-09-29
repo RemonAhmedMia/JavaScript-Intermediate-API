@@ -5,3 +5,4 @@ const manosh = {
 }
 
 console.log(Object.keys(manosh));
+console.log(Object.values(manosh));
